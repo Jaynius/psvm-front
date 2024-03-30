@@ -1,0 +1,67 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    background-color: #84A7A1;
+}
+
+.card-container div{
+    border-radius: 5px;
+    width: 33.3%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.vehicles-card{
+    background-color: rgba(0, 0, 255, 0.5);
+
+}
+.drivers-card{
+    background-color: rgba(0, 128, 0, 0.5);
+}
+.conductors-card{
+    background-color: rgba(255, 166, 0, 0.5);
+}
+
+.dashboard-search-container{
+    padding: 20px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+}
+.dashboard-search-container input, button{
+    font-size: large;
+
+}
+.dashboard-search-container input{
+    border: solid blue 2px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 10px;
+}
+.dashboard-search-container button{
+    width: 3cm;
+    height: 1cm;
+    border: none;
+    border-radius: 5px;
+}
+.dashboard-search-container button:hover{
+    background-color: blue;
+}
+.details-container{
+    text-align: center;
+    border: solid blue 2px ;
+    border-radius: 5px;
+    height: 100vh;
+    background-color: white;
+}
+.details-container h2{
+    text-decoration: underline;
+    color: blue;
+    text-transform: uppercase;
+}

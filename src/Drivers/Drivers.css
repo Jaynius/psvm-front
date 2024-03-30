@@ -1,0 +1,48 @@
+.drivers-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: ghostwhite;
+}
+
+.drivers-header{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+}
+
+.drivers-header button{
+    width: 25%;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+    font-size: large;
+}
+
+.create-profile{
+    background-color:rgba(0, 0, 255, 0.507);
+}
+.create-profile:hover{
+    background-color: darkblue;
+}
+
+.update-profile{
+    background-color: green;
+}
+.update-profile:hover{
+    background-color: darkgreen;
+}
+.delete-profile{
+    background-color: orange;
+}
+.delete-profile:hover{
+    background-color: darkorange;
+}
+.sign-out{
+    background-color: red;
+}
+.sign-out:hover{
+    background-color: darkred;
+}
