@@ -1,6 +1,7 @@
 import Dashboard from '../Dashboard/Dashboard';
 import Drivers from '../Drivers/Drivers';
 import Commuters from '../commuters/Commuters';
+import OwnerLogin from '../vehicleOwner/OwnerLogin';
 import './Home.css'
 import React,{useState} from 'react';
 function Home(){
@@ -28,7 +29,7 @@ function Home(){
             setContent( <Commuters/>);
             break;
       case 'vehicleOwners':
-        setContent('Vehicle owners content goes here.');
+        setContent(<OwnerLogin/>);
         break;
       
       
