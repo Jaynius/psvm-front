@@ -1,33 +1,23 @@
+import { Outlet, Route, Router, Routes, createBrowserRouter ,Link } from 'react-router-dom';
 import './Commuter.css';
+import CommuterSignup from './CommuterSignup';
 function Commuters(){
-
-
+ 
+   
     return(
         <div className="commuter-container">
             <div className="commuter-header">
-                <button>create profile</button>
-                <button>view profile</button>
-                <button>update profile</button>
-                <button>delete profile</button>
+                < Link to='sign-up'>create profile</ Link >
+                < Link to='profile'>view profile</ Link >
+                < Link to='update'>update profile</ Link >
+                < Link to='delete'>delete profile</ Link >
             </div>
-            <div className="commuter-contents">
-                <div className='search-container'>
-                <input type="text" name="search" id="" placeholder="enter commuter id numbers" />
-                <button className="search">search</button>
-                </div>
-                <div className="search-details">
-                    <h2>Commuter History</h2>
-                    <div className="details">
-                        <ol>
-                            <li ></li>
-                            <li></li>
-                        </ol>
-                    </div>
-
-                </div>
-            </div>
+           <Outlet/>
         </div>
+    // 
+    // <h2>heloo world</h2>
     )
+    
     
 }
 

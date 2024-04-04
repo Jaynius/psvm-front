@@ -1,0 +1,32 @@
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(21, 29, 43);
+    color: white;
+
+}
+.header-text{
+    flex: 30%;
+}
+
+
+.nav-link{
+    background-color:rgba(28, 37, 56, 1) ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    font-size: large;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.nav-link:hover{
+    background-color: rgb(42, 142, 253);
+}
+
+.header-buttons{
+    float: right;
+    
+}

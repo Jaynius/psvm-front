@@ -2,22 +2,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 80vh;
     width: 70vw;
     top: 50%;
-    border: solid blue;
+  
     border-radius: 5px;
-    margin: 20px;
+    margin-left: 150px;
+    background-color:rgba(28, 37, 56, 0.411) ;
+    color: white;
   }
   
-  /* .left-div {
+  .left-div {
     width: 50%;
     height: 100%;
     padding: 20px;
     transition: box-shadow 0.3s;
-  } */
+  }
   
-  /* .login-container:hover {
+  .login-container:hover {
     box-shadow: 0 0 20px #fff;
   }
   
@@ -34,14 +36,17 @@
     transition: box-shadow 0.3s;
   }
   
-  .right-div:hover {
+  /* .right-div:hover {
     box-shadow: 0 0 20px #fff;
-  }
+  } */
   
   .login-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  .login-form h2{
+    text-align: center;
   }
   
   .form-group {
@@ -59,15 +64,25 @@
     font-size: 16px;
   }
   
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
+  .button-container{
+   
+    
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .button{
+    text-decoration: none;
+    text-align: center;
     color: white;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    background-color:#0056b3;
+    width: 45%;
   }
   
-  button:hover {
+  .button:hover {
     background-color: #0056b3;
-  } */
+  }

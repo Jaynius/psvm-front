@@ -15,6 +15,7 @@
     height: 70px;
     padding: 10px;
     justify-content: flex-start;
+    display: flex;
     background-color:rgb(5, 5, 68);
     
 }
@@ -89,3 +90,60 @@
     background-color: rgba(128, 128, 128, 0.404);
     height: auto;
 }
+.signup-container{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 60vw;
+    background-color:ghostwhite ;
+    border-radius: 5px;
+    margin-left: 300px;
+    position: unset;
+    
+}
+
+.signup-container form input,label{
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+    align-items: center;
+}
+.signup-container button{
+    background-color:rgb(21, 29, 43) ;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.signup-container button:hover{
+    background-color:rgb(42, 142, 253) ;
+}
+
+.signup-container form input{
+    border-radius: 5px;
+    border: none;
+    
+}
+.signup-form{
+    background-color:rgba(28, 37, 56, 0.849);
+    
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.left-div{
+    flex: 50%;
+}
+.signup-container form{
+    align-items: center;
+    align-self: center;
+}
+

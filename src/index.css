@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(21, 29, 43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+signup-container{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 60vw;
+    background-color:rgba(28, 37, 56, 0.719) ;
+    border: none;
+    border-radius: 5px;
+
+}
