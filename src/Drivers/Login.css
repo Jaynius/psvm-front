@@ -96,8 +96,7 @@
     align-self: center;
     align-items: center;
     width: 60vw;
-    background-color: (28, 37, 56, 1);
-    color: white;
+    background-color:ghostwhite ;
     border-radius: 5px;
     margin-left: 300px;
     position: unset;
@@ -107,11 +106,11 @@
 .signup-container form input,label{
     margin: 5px;
     padding: 5px;
-    width: 60%;
+    width: 80%;
     align-items: center;
 }
 .signup-container button{
-    
+    background-color:rgb(21, 29, 43) ;
     margin: 5px;
     border: none;
     border-radius: 5px;
@@ -128,7 +127,7 @@
     
 }
 .signup-form{
-  background-color:rgba(28, 37, 56, 1) ;
+    background-color:rgba(28, 37, 56, 0.849);
     
     flex: 50%;
     align-items: center;
@@ -137,23 +136,10 @@
     
 }
 
-.left-div{
+.lleft-div{
     flex: 50%;
 }
 .signup-container form{
     align-items: center;
     align-self: center;
-}
-
-.signup-container button{
-  text-decoration: none;
-    text-align: center;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    background-color:#0056b3;
-    width: 30%;
-  
 }

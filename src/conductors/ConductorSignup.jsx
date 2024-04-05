@@ -1,12 +1,12 @@
 import './Login.css'
-function CommuterSignup(){
+function ConductorSignup(){
     return (
         <div className="signup-container">
-            <div className="lleft-div">
+            {/* <div className="lleft-div">
                 <h2>hello world</h2>
-            </div>
+            </div> */}
             <div className="signup-form">
-                <h2>signup</h2> 
+                <h2> conductor signup</h2> 
                 <form action="" method="post">
                     <label htmlFor="id">National Id</label><br />
                     <input type="text" name="" id="" placeholder="enter national id number" required/><br />
@@ -21,11 +21,12 @@ function CommuterSignup(){
                     <label htmlFor="">Confirm new password</label><br />
                     <input type="password" name="" id="" required /><br />
                     <button type="submit">submit</button>
-                    <button className='back-button'>back</button>
+                    <button className='back-button'>back</button><br />
+                    
                 </form>
 
             </div>
         </div>
     )
 }
-export default CommuterSignup;
+export default ConductorSignup;

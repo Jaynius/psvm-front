@@ -8,6 +8,10 @@ import Commuters from './commuters/Commuters';
 import CommuterSignup from './commuters/CommuterSignup';
 import CommuterLogin from './commuters/CommuterLogin';
 import CommuterProfile from './commuters/CommuterProfile';
+import DriverLogin from './Drivers/DriverLogin';
+import DriverProfile from './Drivers/DriverProfile';
+import DriverSignup from './Drivers/DriverSignup';
+import ConductorLogin from './conductors/ConductorLogin';
 
 const router=createBrowserRouter([
   {
@@ -32,6 +36,23 @@ const router=createBrowserRouter([
       {
         path:'profile',
         element:<CommuterProfile/>
+      },
+      {
+        path:'/driverlogin',
+        element:<DriverLogin/>,
+
+      },
+      {
+        path:'/driverprofile',
+        element:<DriverProfile/>,
+      },
+      {
+        path:'/driversign-up',
+        element:<DriverSignup/>
+      },
+      {
+        path:'/conductorlogin',
+        element:<ConductorLogin/>
       }
 
     ],

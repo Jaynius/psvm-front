@@ -21,8 +21,8 @@ function NavBar(){
          
         <Link className="nav-link" to='/dashboard'>Dashboard</Link>
         <Link className="nav-link" to='/commuterlogin'>Commuters</Link>
-          <Link className="nav-link" >Drivers</Link>
-          <Link className="nav-link" >Conductors</Link>
+          <Link className="nav-link"  to='/driverlogin'>Drivers</Link>
+          <Link className="nav-link" to="/conductorlogin">Conductors</Link>
           <Link className="nav-link">Vehicle Owners</Link>
           <button className="nav-link"onClick={() => handleExitButtonClick()}>Exit</button>
           </div>
