@@ -18,27 +18,28 @@ body{
 .login-container {
   margin-top: 10px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 80vh;
     width: 70vw;
-    top: 50%;
+    
   
     border-radius: 5px;
-    margin-left: 150px;
     background-color:rgba(28, 37, 56, 0.411) ;
     color: white;
+    transition: box-shadow 0.9s;
   }
   
   .left-div {
-    width: 50%;
+   flex: 50;
     height: 100%;
-    padding: 20px;
-    transition: box-shadow 0.3s;
+   
+   
   }
   
   .login-container:hover {
-    box-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 20px #0056b3;
   }
   
   .left-div img {
@@ -48,10 +49,14 @@ body{
   }
   
   .right-div {
-    width: 50%;
+    flex: 50;
     height: 100%;
     padding: 20px;
     transition: box-shadow 0.3s;
+  }
+  .right-div label,input{
+    border-radius: 5px;
+    border: none;
   }
   
   /* .right-div:hover {
@@ -70,6 +75,7 @@ body{
   .form-group {
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
   }
   
   label {
@@ -104,33 +110,28 @@ body{
   .button:hover {
     background-color: #0056b3;
   }
-  
+  /* sign up*/
   .signup-container{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    width: 60vw;
-    display: flex;
     justify-content: center;
     align-self: center;
     align-items: center;
-    width: 60vw;
-    background-color:rgba(28, 37, 56, 0.411) ;
+    width: 40vw;
+    color: white;
     border-radius: 5px;
-    margin-left: 300px;
-    height: 70vh;
+    height: auto;
     
   }
   
   .signup-container form input,label{
-    margin: 5px;
-    padding: 5px;
-    width: 80%;
+    
+   
     
   }
   .signup-container button{
     background-color:rgb(21, 29, 43) ;
-    margin: 5px;
     border: none;
     border-radius: 5px;
     color: white;
@@ -146,26 +147,37 @@ body{
     
   }
   .signup-form{
-    background-color:rgba(28, 37, 56, 0.849);
-    height: 100%;
-    
     flex: 50%;
+    background-color: rgba(24, 32, 48, 1);
     /* align-items: center;
     justify-content: center; */
     
   }
+  .rightt-div{
+    background-color: rgba(24, 32, 48, 1);
+    text-align: center;
+    height: auto;
+    width: 100%
+  }
+  .right-div form{
+    width: 60%;
+  }
+
+
+
+ 
   
   .lleft-div{
     flex: 50%;
-    height: 100%;
   }
-  .signup-container form{
-    /* align-items: center; */
-    align-self: center;
-    
-  }
+
   
   .image-holder{
-   width: 100%;
-   height: 100%;
+
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

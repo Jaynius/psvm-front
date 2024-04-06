@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
-
 import mypic from './inspection.jpg'
 function InspectorLogin(){
     return(
         <>
+           <div className="container">
           <div className="login-container">
+         
       <div className="left-div">
         {/* Replace the image source with your own */}
         <img src={mypic} alt="Placeholder" />
@@ -27,6 +28,7 @@ function InspectorLogin(){
           
           <Link href="#"> forgot password</Link>
         </form>
+      </div>
       </div>
     </div>
         </>

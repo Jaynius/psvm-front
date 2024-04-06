@@ -3,6 +3,7 @@ import mypic from './commuters.jpeg'
 function CommuterLogin(){
     return(
         <>
+        <div className="container">
           <div className="login-container">
       <div className="left-div">
         {/* Replace the image source with your own */}
@@ -27,6 +28,7 @@ function CommuterLogin(){
           <Link href="#"> forgot password</Link>
         </form>
       </div>
+    </div>
     </div>
         </>
     )

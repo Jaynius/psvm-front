@@ -1,6 +1,7 @@
 
 function DriverSignup(){
     return (
+        <div className="container">
         <div className="signup-container">
             <div className="lleft-div">
                 <h2>hello world</h2>
@@ -26,6 +27,7 @@ function DriverSignup(){
                 </form>
 
             </div>
+        </div>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import mypic from './conductor.jpeg'
 function ConductorLogin(){
     return(
         <>
+        <div className="container">
           <div className="login-container">
       <div className="left-div">
         {/* Replace the image source with your own */}
@@ -28,6 +29,7 @@ function ConductorLogin(){
           <Link href="#"> forgot password</Link>
         </form>
       </div>
+    </div>
     </div>
         </>
     )

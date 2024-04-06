@@ -4,7 +4,9 @@ import mypic from './vehicless.jpeg'
 function Ownerlogin(){
     return(
         <>
+         <div className="container">
           <div className="login-container">
+           
       <div className="left-div">
         {/* Replace the image source with your own */}
         <img src={mypic} alt="Placeholder" />
@@ -27,6 +29,7 @@ function Ownerlogin(){
           
           <Link href="#"> forgot password</Link>
         </form>
+      </div>
       </div>
     </div>
         </>

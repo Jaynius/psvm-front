@@ -3,7 +3,9 @@ import mypic from './driver.jpeg'
 function DriverLogin(){
     return(
         <>
+        <div className="container">
           <div className="login-container">
+            
       <div className="left-div">
         {/* Replace the image source with your own */}
         <img src={mypic} alt="Placeholder" />
@@ -27,6 +29,7 @@ function DriverLogin(){
           <Link href="#"> forgot password</Link>
         </form>
       </div>
+    </div>
     </div>
         </>
     )
