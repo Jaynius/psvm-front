@@ -3,7 +3,7 @@
     flex-direction: row;
     padding: 10px;
     gap: 10px;
-    background-color: #84A7A1;
+    background-color:rgba(28, 37, 56, 1);
     
    
     
@@ -35,7 +35,7 @@
 
 .dashboard-search-container{
     padding: 20px;
-    background-color: ghostwhite;
+    background-color: rgba(28, 37, 56, 1);
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -47,7 +47,6 @@
 
 }
 .dashboard-search-container input{
-    border: solid blue 2px;
     border-radius: 5px;
     height: 20px;
     padding: 10px;
@@ -57,20 +56,21 @@
     height: 1cm;
     border: none;
     border-radius: 5px;
+    background-color:rgba(42, 142, 253, 1) ;
+    color: white;
 }
 .dashboard-search-container button:hover{
     background-color: blue;
 }
 .details-container{
     text-align: center;
-    border: solid blue 2px ;
     border-radius: 5px;
     height: 100vh;
-    background-color: white;
+    background-color:rgba(28, 37, 56, 0.76);
 }
 .details-container h2{
     text-decoration: underline;
-    color: blue;
+    color:white;
     text-transform: uppercase;
 }
 img{

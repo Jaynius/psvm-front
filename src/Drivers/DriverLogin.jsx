@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import './Login.css'
 import mypic from './driver.jpeg'
 function DriverLogin(){
     return(

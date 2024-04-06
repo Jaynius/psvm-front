@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import './Login.css'
-import mypic from './about-pic.png'
+
+import mypic from './conductor.jpeg'
 function ConductorLogin(){
     return(
         <>
@@ -11,7 +11,7 @@ function ConductorLogin(){
       </div>
       <div className="right-div">
         <form className="login-form">
-          <h2>Login</h2>
+          <h2>conductor Login</h2>
           <div className="form-group">
             <label htmlFor="username">Id number:</label>
             <input type="text" id="idNumber" name="idNumber" placeholder='enter national id number'/>

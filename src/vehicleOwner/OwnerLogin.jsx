@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Login.css'
+
 import mypic from './vehicless.jpeg'
 function Ownerlogin(){
     return(

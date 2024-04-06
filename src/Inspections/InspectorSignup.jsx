@@ -1,4 +1,4 @@
-import './Login.css'
+
 function InspectorSignup(){
     return (
         <div className="signup-container">

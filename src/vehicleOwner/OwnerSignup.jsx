@@ -1,4 +1,4 @@
-import './Login.css'
+
 function Ownersignup(){
     return (
         <div className="signup-container">

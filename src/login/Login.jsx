@@ -1,4 +1,4 @@
-import './Login.css'
+
 import mypic from './about-pic.png'
 function Login(){
     return(
