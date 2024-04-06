@@ -1,0 +1,65 @@
+.landing-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 5px;
+    
+    /* background-color: rgba(71, 90, 106, 1); */
+    background: linear-gradient(rgba(21, 29, 43, 1), rgba(71, 90, 106, 1));
+
+  /* Apply the blur effect */
+  backdrop-filter: blur(10px); 
+    
+    
+    
+    
+}
+
+.landing-container.active {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+.landing-content-holder{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url('./landing.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    transition: box-shadow 0.9s; 
+
+
+}
+.landing-content-holder:hover{
+    box-shadow: 0 0 10px 5px rgba(71, 90, 106, 1);
+}
+.landing-content{
+    margin: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.get-started{
+    background-color: #07315f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    text-decoration: none;
+}
+.get-started:hover{
+    background-color: #0056b3;
+}

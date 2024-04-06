@@ -3,6 +3,7 @@
     flex-direction: row;
     background-color: rgb(21, 29, 43);
     color: white;
+    border-bottom: solid 1px white;
 
 }
 .header-text{

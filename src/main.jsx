@@ -12,12 +12,22 @@ import DriverLogin from './Drivers/DriverLogin';
 import DriverProfile from './Drivers/DriverProfile';
 import DriverSignup from './Drivers/DriverSignup';
 import ConductorLogin from './conductors/ConductorLogin';
+import InspectorLogin from './Inspections/InspectorLogin';
+import InspectorSignup from './Inspections/InspectorSignup';
+import VehicleOwners from './vehicleOwner/VehicleOwner';
+import VehicleOwner from './vehicleOwner/VehicleOwner';
+import Ownerlogin from './vehicleOwner/OwnerLogin';
+import Ownersignup from './vehicleOwner/OwnerSignup';
+import Landing from './landing/Landing';
 
 const router=createBrowserRouter([
+ 
   {
+
     path:'/',
     element:<NavBar/>,
     children:[
+     
 
       {
         path:'/dashboard',
@@ -52,14 +62,37 @@ const router=createBrowserRouter([
       },
       {
         path:'/conductorlogin',
-        element:<ConductorLogin/>
-      }
+        element:<ConductorLogin/>,
+      },
+      {
+        path:'/inspectorlogin',
+        element:<InspectorLogin/>,
+      },
+      {
+        path:'/inspectorsignup',
+        element:<InspectorSignup/>,
+      },
+      {
+        path:'/ownerlogin',
+        element:<Ownerlogin/>,
+      },
+      {
+        path:"/ownersignup",
+        element:<Ownersignup/>,
+      },
+      {
+        path:'/ownerdashboard',
+        element:<VehicleOwner/>,
+      },
+      {
+        path:'',
+        element:<Landing/>}
 
     ],
     
     
   },
-  
+ 
  
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

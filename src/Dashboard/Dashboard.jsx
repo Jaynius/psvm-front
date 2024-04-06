@@ -1,4 +1,5 @@
 import './Dashboard.css'
+import vehicle from './vehicles.jpeg'
 
 function Dashboard(){
     return(
@@ -6,19 +7,34 @@ function Dashboard(){
         <div className="dashboard-container">
             <div className="card-container">
                 <div className="vehicles-card">
-                    <img src="" alt="vehicles" />
+               
+                   {/* <img src={vehicle} alt="" /> */}
+                
+                  
                     <title>vehicles</title>
-                    <p>Total vehicles</p>
+                    <h1>Vehicles</h1>
+                   
+                    
+                    <p>{}</p>
+                    
+                </div>
+                <div className="commuters-card">
+                    <img src="" alt="drivers" />
+                    <title>Drivers</title>
+                    <h1>commuter</h1>
+                    <p>Total commuters</p>
                     
                 </div>
                 <div className="drivers-card">
                     <img src="" alt="drivers" />
                     <title>Drivers</title>
+                    <h1>Drivers</h1>
                     <p>Total Drivers</p>
                     
                 </div>
                 <div className="conductors-card">
                     <img src="" alt="conductors" />
+                    <h1>Conductors</h1>
                     <title>conductors</title>
                     <p>Total conductors</p>
                     

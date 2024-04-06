@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Login.css'
-import mypic from './vehicless.jpeg'
-function Ownerlogin(){
+import mypic from './inspection.jpg'
+function InspectorLogin(){
     return(
         <>
           <div className="login-container">
@@ -21,8 +21,8 @@ function Ownerlogin(){
             <input type="password" id="password" name="password" />
           </div>
           <div className="button-container">
-          <Link className='button'to='/ownerdashboard' type="submit">Sign In</Link>
-          <Link className='button' to="/ownersignup">Sign up</Link>
+          <Link className='button'to='/profile' type="submit">Sign In</Link>
+          <Link className='button' to="/inspectorsignup">Sign up</Link>
           </div>
           
           <Link href="#"> forgot password</Link>
@@ -32,4 +32,4 @@ function Ownerlogin(){
         </>
     )
 }
-export default Ownerlogin;
+export default InspectorLogin;
