@@ -16,6 +16,7 @@ body{
 
 /* login*/
 .login-container {
+  margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,6 +106,7 @@ body{
   }
   
   .signup-container{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     width: 60vw;
@@ -113,10 +115,10 @@ body{
     align-self: center;
     align-items: center;
     width: 60vw;
-    background-color:ghostwhite ;
+    background-color:rgba(28, 37, 56, 0.411) ;
     border-radius: 5px;
     margin-left: 300px;
-    position: unset;
+    height: 70vh;
     
   }
   
@@ -124,7 +126,7 @@ body{
     margin: 5px;
     padding: 5px;
     width: 80%;
-    align-items: center;
+    
   }
   .signup-container button{
     background-color:rgb(21, 29, 43) ;
@@ -145,19 +147,25 @@ body{
   }
   .signup-form{
     background-color:rgba(28, 37, 56, 0.849);
+    height: 100%;
     
     flex: 50%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
     
   }
   
   .lleft-div{
     flex: 50%;
+    height: 100%;
   }
   .signup-container form{
-    align-items: center;
+    /* align-items: center; */
     align-self: center;
+    
   }
   
+  .image-holder{
+   width: 100%;
+   height: 100%;
+  }
