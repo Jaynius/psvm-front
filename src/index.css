@@ -2,17 +2,11 @@ body{
     background-color: rgb(21, 29, 43);
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* signup-container{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    width: 60vw;
-    background-color:rgba(28, 37, 56, 0.719) ;
-    border: none;
-    border-radius: 5px;
-
-} */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* login*/
 .login-container {
@@ -49,6 +43,8 @@ body{
   }
   
   .right-div {
+    align-items: center;
+    justify-content: center;
     flex: 50;
     height: 100%;
     padding: 20px;
@@ -111,73 +107,31 @@ body{
     background-color: #0056b3;
   }
   /* sign up*/
+
   .signup-container{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    width: 40vw;
-    color: white;
-    border-radius: 5px;
-    height: auto;
-    
+    background-color: rgba(28, 37, 56, 0.411);
   }
-  
-  .signup-container form input,label{
-    
-   
-    
-  }
-  .signup-container button{
-    background-color:rgb(21, 29, 43) ;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 5px;
-  }
-  .signup-container button:hover{
-    background-color:rgb(42, 142, 253) ;
-  }
-  
-  .signup-container form input{
-    border-radius: 5px;
-    border: none;
-    
-  }
-  .signup-form{
-    flex: 50%;
-    background-color: rgba(24, 32, 48, 1);
-    /* align-items: center;
-    justify-content: center; */
-    
-  }
-  .rightt-div{
-    background-color: rgba(24, 32, 48, 1);
-    text-align: center;
-    height: auto;
-    width: 100%
-  }
-  .right-div form{
-    width: 60%;
-  }
+ .formm{
+  margin-top: 20px;
+  text-align: center;
+  width: 50%;
+  background-color: rgba(28, 37, 56, 1);
+  color: white;
+  transition: box-shadow 0.9s;
+ }
+
+ .formm:hover{
+  box-shadow: 0 0 20px #0056b3;}
+
+ .formm input{
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+ }
+
 
 
 
  
-  
-  .lleft-div{
-    flex: 50%;
-  }
-
-  
-  .image-holder{
-
-  }
-
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }

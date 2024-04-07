@@ -1,13 +1,14 @@
 
 function ConductorSignup(){
     return (
-        <div className="signup-container">
-            {/* <div className="lleft-div">
-                <h2>hello world</h2>
-            </div> */}
-            <div className="signup-form">
-                <h2> conductor signup</h2> 
-                <form action="" method="post">
+        <div className="container">
+       
+
+           
+             
+                <form className='formm' action="" method="post">
+                <h2>conductor Signup</h2>
+                
                     <label htmlFor="id">National Id</label><br />
                     <input type="text" name="" id="" placeholder="enter national id number" required/><br />
                     <label htmlFor="id">Full Name</label><br />
@@ -21,12 +22,13 @@ function ConductorSignup(){
                     <label htmlFor="">Confirm new password</label><br />
                     <input type="password" name="" id="" required /><br />
                     <button type="submit">submit</button>
-                    <button className='back-button'>back</button><br />
-                    
+                    <button className='back-button'>back</button>
                 </form>
+                </div>
 
-            </div>
-        </div>
+          
+
+         
     )
 }
 export default ConductorSignup;

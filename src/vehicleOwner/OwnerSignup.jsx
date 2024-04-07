@@ -2,15 +2,12 @@ import image from './vehicless.jpeg'
 function Ownersignup(){
     return (
         <div className="container">
-        <div className="signup-container">
+       
+
            
-            {/* <div className="lleft-div">
-            <img className='image-holder' src={image} alt="owner" />
-            </div> */}
-            <div className="rightt-div">
-            <h2>Owner Signup</h2>
-                
-                <form action="" method="post">
+             
+                <form className='formm' action="" method="post">
+                <h2>Owner Signup</h2>
                 
                     <label htmlFor="id">National Id</label><br />
                     <input type="text" name="" id="" placeholder="enter national id number" required/><br />
@@ -27,10 +24,11 @@ function Ownersignup(){
                     <button type="submit">submit</button>
                     <button className='back-button'>back</button>
                 </form>
+                </div>
 
-            </div>
-            </div>
-        </div>
+          
+
+         
     )
 }
 export default Ownersignup;

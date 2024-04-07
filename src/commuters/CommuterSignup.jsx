@@ -2,13 +2,13 @@
 function CommuterSignup(){
     return (
         <div className="container">
-        <div className="signup-container">
-            <div className="lleft-div">
-                <h2>hello world</h2>
-            </div>
-            <div className="signup-form">
-                <h2>signup</h2> 
-                <form action="" method="post">
+       
+
+           
+             
+                <form className='formm' action="" method="post">
+                <h2>commuter Signup</h2>
+                
                     <label htmlFor="id">National Id</label><br />
                     <input type="text" name="" id="" placeholder="enter national id number" required/><br />
                     <label htmlFor="id">Full Name</label><br />
@@ -24,10 +24,11 @@ function CommuterSignup(){
                     <button type="submit">submit</button>
                     <button className='back-button'>back</button>
                 </form>
+                </div>
 
-            </div>
-        </div>
-        </div>
+          
+
+         
     )
 }
 export default CommuterSignup;
