@@ -22,7 +22,7 @@ function ConductorLogin(){
             <input type="password" id="password" name="password" />
           </div>
           <div className="button-container">
-          <Link className='button'to='/profile' type="submit">Sign In</Link>
+          <Link className='button'to='/conductorProfile' type="submit">Sign In</Link>
           <Link className='button' to="/sign-up">Sign up</Link>
           </div>
           

@@ -22,7 +22,7 @@ function InspectorLogin(){
             <input type="password" id="password" name="password" />
           </div>
           <div className="button-container">
-          <Link className='button'to='/profile' type="submit">Sign In</Link>
+          <Link className='button'to='/inspectorProfile' type="submit">Sign In</Link>
           <Link className='button' to="/inspectorsignup">Sign up</Link>
           </div>
           

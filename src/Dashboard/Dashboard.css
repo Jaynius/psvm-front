@@ -21,15 +21,19 @@
 }
 .vehicles-card{
     background-color: rgba(0, 0, 255, 0.5);
+    text-align: center;
 
 }
 .drivers-card{
     background-color: rgba(0, 128, 0, 0.5);
+    text-align: center;
 }
 .conductors-card{
     background-color: rgba(255, 166, 0, 0.5);
+    text-align: center;
 }
 .commuters-card{
+    text-align: center;
     background-color: rgba(42, 142, 253, 1);
 }
 
@@ -79,3 +83,15 @@ img{
     object-fit: cover;
 
 }
+
+table{
+    width: 100vw;
+    background-color: rgb(49, 48, 77);
+}
+table thead{
+    background-color:rgb(11, 96, 176);
+    font-size: large;
+}
+    
+  
+    

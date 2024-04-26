@@ -19,6 +19,10 @@ import VehicleOwner from './vehicleOwner/VehicleOwner';
 import Ownerlogin from './vehicleOwner/OwnerLogin';
 import Ownersignup from './vehicleOwner/OwnerSignup';
 import Landing from './landing/Landing';
+import Boarding from './commuters/Boarding';
+import Inspections from './Inspections/Inspections';
+import InspectorProfile from './Inspections/InspectorProfile';
+import ConductorProfile from './conductors/ConductorProfile';
 
 const router=createBrowserRouter([
  
@@ -48,6 +52,11 @@ const router=createBrowserRouter([
         element:<CommuterProfile/>
       },
       {
+        path:'/boarding',
+        element:<Boarding/>,
+
+      },
+      {
         path:'/driverlogin',
         element:<DriverLogin/>,
 
@@ -69,9 +78,24 @@ const router=createBrowserRouter([
         element:<InspectorLogin/>,
       },
       {
+        path:'conductorProfile',
+        element: <ConductorProfile/>
+      },
+      {
+        path:'/inspectorProfile',
+        element:<InspectorProfile/>
+      },
+      {
+        path:'vehicleInspection',
+        element:<Inspections/>
+      },
+      {
         path:'/inspectorsignup',
         element:<InspectorSignup/>,
       },
+
+
+     
       {
         path:'/ownerlogin',
         element:<Ownerlogin/>,
@@ -84,6 +108,11 @@ const router=createBrowserRouter([
         path:'/ownerdashboard',
         element:<VehicleOwner/>,
       },
+      {
+        path:'/vehicleInspection',
+        element: <Inspections/>,
+      },
+     
       {
         path:'',
         element:<Landing/>}

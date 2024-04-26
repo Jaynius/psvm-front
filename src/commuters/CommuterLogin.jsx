@@ -1,6 +1,25 @@
 import { Link } from 'react-router-dom';
 import mypic from './commuters.jpeg'
+// import { useEffect } from 'react';
 function CommuterLogin(){
+
+  // const [user,setUser]=useEffect([]);
+  
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+  
+    const idNumber = document.getElementById('idNumber').value;
+    const password = document.getElementById('password').value;
+  
+    try {
+      const response = await axios.post('http://localhost:8080/users/login', { idNumber, password });
+      console.log(response.data); // Handle success response
+    } catch (error) {
+      console.error('Login failed:', error.response.data); // Handle error response
+    }
+  };
+
     return(
         <>
         <div className="container">
@@ -10,7 +29,7 @@ function CommuterLogin(){
         <img src={mypic} alt="Placeholder" />
       </div>
       <div className="right-div">
-        <form className="login-form">
+        <form className="login-form" onSubmit={handleLogin}>
           <h2>commuter Login</h2>
           <div className="form-group">
             <label htmlFor="username">Id number:</label>

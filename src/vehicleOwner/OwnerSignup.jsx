@@ -1,5 +1,16 @@
 import image from './vehicless.jpeg'
+import { useRef,useState,useEffect } from 'react';
 function Ownersignup(){
+    const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
+
+    const userRef = useRef();
+    const [user,setUser] = useState("");
+    const [userFocus,setUserFocus] = useState(false);
+
+    useEffect(() => {
+        userRef.current.focus();
+    }, [])
+    
     return (
         <div className="container">
        

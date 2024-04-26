@@ -112,8 +112,9 @@ body{
     background-color: rgba(28, 37, 56, 0.411);
   }
  .formm{
-  margin-top: 20px;
   text-align: center;
+  align-items: center;
+  margin-top: 20px;
   width: 50%;
   background-color: rgba(28, 37, 56, 1);
   color: white;
@@ -129,6 +130,11 @@ body{
   margin: 10px;
   border-radius: 5px;
   border: none;
+ }
+
+ .form label{
+  width: 50%;
+  text-align: center;
  }
 
 
